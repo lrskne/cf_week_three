@@ -25,8 +25,11 @@ git add .
 7. Commit your work:
     git commit -a -m "(give a description of what you just did)"
 
-8. Push your committed changes to Github: lbenote: I am assuming to our own repository??? The command below would not do anything)
+8. Push your committed changes to Github:
     git push origin master
+
+(note: git knows where the origin because you started this whole mess with a clone command. If you want to know what the origin is
+        git remote -v
 
 9. Attach the browser URL (not clone URL) for your forked project to your assignment to this assignment.
 
