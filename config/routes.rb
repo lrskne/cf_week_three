@@ -1,4 +1,11 @@
 CfWeekThree::Application.routes.draw do
+# by default this was added when rails generate controller page home, was issued
+# get "page/home"
+
+root 'page#home'
+
+resources :contacts
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
