@@ -1,4 +1,4 @@
-# Assignment 3.1 on Routing
+# Assignment 3.1 on Routing (with 3.2 extra credit)
 
 ## My notes -
 This is class assignment - the original instructions are below. Then I marked these up with my notes, observations, etc. Mainly notes are for myself!
@@ -35,6 +35,17 @@ git add .
 Hints
 Create new controller and actions: rails g controller YourControllerName action1 action2 etc
 See config/routes.rb for numerous examples of how to do routes
+
+## 3.2 .2 - Links [Extra Credit]
+
+Research link_to, view your list of routes and find the appropriate URL helper method (see lecture notes), and link to the contacts list from your root page you created in the previous assignment.
+
+Hints
+
+Remember to use rake routes for a list of your URLs you can link to.
+See the this page on the Ruby on Rails guide for more info.
+
+
 [The Ruby on Rails site provides a Routing Guide:]( http://guides.rubyonrails.org/routing.html.)
 ***
 ##Instructions as given:
